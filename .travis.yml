@@ -5,8 +5,8 @@ python:
   - "3.4"
   - "pypy"
 
-before_install:
-  - sudo apt-get install -y --force-yes slapd time ldap-utils
+#before_install:
+#  - sudo apt-get install -y --force-yes time ldap-utils
 
 #install: 
 #  - tests/openldap_install.sh
